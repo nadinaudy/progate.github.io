@@ -7,6 +7,7 @@ h1,h2,h3,h4,h5,h6,p,div {
 
 body {
     font-family: "Times New Roman";
+    margin: 0 auto;
 }
 
 a{
@@ -99,9 +100,10 @@ li {
 
 .title h1 {
   color: #d8e6d6;
-  text-align: center;
+  text-align: leftr;
   padding-top:100px;
   padding-bottom:50px;
+  padding-left:60px;
 }
 
 .title h3 {
@@ -134,7 +136,7 @@ color: #d8e6d6;
 
 .heading h1 {
   padding-bottom: 50px;
-  text-align:center;
+  text-align:left;
 }
 
 .lessons {
@@ -189,8 +191,12 @@ footer {
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
+    width: 25%;
     margin-bottom: 50px;
+  }
+  .header-list li {
+  width:20%;
+  padding:25px 5px;
   }
 }
 
